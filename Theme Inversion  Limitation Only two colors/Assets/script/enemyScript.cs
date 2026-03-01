@@ -20,6 +20,6 @@ public class enemyScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.position = Vector3.MoveTowards(transform.position, player.transform.position, 3f * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, player.transform.position, 5f * Time.deltaTime);
     }
 }
